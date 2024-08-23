@@ -1,0 +1,19 @@
+---
+interface Props {
+	title: string;
+	href: string;
+	imgSrc?: string;
+}
+
+const { href, title, imgSrc } = Astro.props;
+---
+
+<li class="flex flex-col content-center box-border group">
+	<a class="group" href={href}>
+		{ imgSrc && <img class="w-full h-48 object-cover filter grayscale mix-blend-multiply" src={imgSrc} alt={title}> }
+		<h4 class="my-5 text-2xl text-black group-hover:underline">
+			{title}
+		</h4>
+	</a>
+	<div class="w-full h-10"></div>
+</li>

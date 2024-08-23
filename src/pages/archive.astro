@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+
+let posts = await getCollection('post');
+
+interface Group {
+  year: String
+  month: String
+  list: any[]
+}
+const groups: Group[] = [];
+
+for (let year = 2020; year < (new Date()).getFullYear(); year++) {
+  for (let month = 1; month <= 12; month++) {
+    const group: Group = {
+      year: ""+year,
+      month: (""+month).padStart(2, "0"),
+      list: [],
+    };
+    const startsWith = `${group.year}/${group.month}`;
+    posts.filter(post => post.slug.startsWith(startsWith)).forEach(post => group.list.push(post));
+    if (group.list.length > 0) {
+      groups.push(group);
+    }
+  }
+}
+
+---
+
+<Layout title="Archive">
+	<main class="m-auto my-6 px-6 lg:px-0 w-full max-w-[1200px]">
+		<div class="w-full h-0 md:h-12"></div>
+		<ul role="group">
+			{groups.map(group => (
+				<li class="list-disc">
+          {group.year}/{group.month}
+          <ul role="list">
+            {group.list.map(post => (
+              <li class="ml-8 list-disc">
+                <a
+                  href={`/${post.slug}`}
+                >
+                  {post.data.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </li>
+			))}
+		</ul>
+	</main>
+</Layout>
