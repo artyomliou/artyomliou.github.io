@@ -6,20 +6,28 @@ interface Props {
 }
 interface Frontmatter {
   title: string;
-  imgSrc: string | null | undefined;
+  imgSrc: string | undefined;
+  tags: string[] | undefined;
   slug: string;
   file: string;
   url: string | undefined;
 }
 
-const { title } = Astro.props.frontmatter;
+const { title, tags } = Astro.props.frontmatter;
 ---
 <Layout title={title}>
   <main class="m-auto my-6 px-6 lg:px-0 w-full max-w-[1200px] flex flex-col items-center">
 		<div class="w-full h-0 md:h-12"></div>
-    <div class="w-full">
+    <div class="w-full mb-20">
       <!-- { imgSrc && <img src={imgSrc} alt=""> } -->
-      <h1 class="my-9 text-4xl">{title}</h1>
+      <h1 class="mb-3 text-4xl">
+        {title}
+      </h1>
+      {tags && tags.map(tag => (
+        <a href={`/tags/${tag}`} class="underline mr-3">
+          #{tag}
+        </a>
+      ))}
     </div>
     <div class="prose w-full max-w-full">
       <slot />

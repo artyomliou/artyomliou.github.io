@@ -1,0 +1,44 @@
+---
+import ListLayout from '../../layouts/ListLayout.astro';
+import { getCollection } from 'astro:content';
+import { getUniqueTags } from "./utility";
+
+export async function getStaticPaths() {
+  const tags = await getUniqueTags();
+
+  const paths = [];
+  for (const tag of tags) {
+    const posts = await getCollection('post', ({ data }) => {
+      return data?.tags && data.tags.includes(tag);
+    });
+    paths.push({
+      params: {
+        slug: tag
+      },
+      props: {
+        posts: posts
+      },
+    });
+  }
+  return paths;
+}
+const { slug } = Astro.params;
+const { posts } = Astro.props;
+
+---
+
+<ListLayout title={`Tag: ${slug}`}>
+  <h1 class="text-3xl">{`Tag: ${slug}`}</h1>
+  <br>
+	<ul class="px-6">
+    {posts.map(post => (
+      <li class="list-disc">
+        <a
+          href={`/${post.slug}`}
+        >
+          {post.data.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+</ListLayout>

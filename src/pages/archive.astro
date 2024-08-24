@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import ListLayout from '../layouts/ListLayout.astro';
 import { getCollection } from 'astro:content';
 
 
@@ -29,26 +29,25 @@ for (let year = 2020; year < (new Date()).getFullYear(); year++) {
 
 ---
 
-<Layout title="Archive">
-	<main class="m-auto my-6 px-6 lg:px-0 w-full max-w-[1200px]">
-		<div class="w-full h-0 md:h-12"></div>
-		<ul role="group">
-			{groups.map(group => (
-				<li class="list-disc">
-          {group.year}/{group.month}
-          <ul role="list">
-            {group.list.map(post => (
-              <li class="ml-8 list-disc">
-                <a
-                  href={`/${post.slug}`}
-                >
-                  {post.data.title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </li>
-			))}
-		</ul>
-	</main>
-</Layout>
+<ListLayout title="Archive">
+  <h1 class="text-3xl">Archive</h1>
+  <br>
+  <ul class="px-6">
+    {groups.map(group => (
+      <li class="list-disc">
+        {group.year}/{group.month}
+        <ul role="list">
+          {group.list.map(post => (
+            <li class="ml-8 list-disc">
+              <a
+                href={`/${post.slug}`}
+              >
+                {post.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
+  </ul>
+</ListLayout>

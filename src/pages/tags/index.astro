@@ -1,0 +1,22 @@
+---
+import ListLayout from '../../layouts/ListLayout.astro';
+import { getUniqueTags } from './utility';
+const tags = await getUniqueTags();
+
+---
+
+<ListLayout title="Tags">
+  <h1 class="text-3xl">Tags</h1>
+  <br>
+	<ul class="px-6">
+    {tags.map(tag => (
+      <li class="list-disc">
+        <a
+          href={`/tags/${tag}`}
+        >
+          {tag}
+        </a>
+      </li>
+    ))}
+  </ul>
+</ListLayout>

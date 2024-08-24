@@ -1,5 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
+
+// https://docs.astro.build/en/guides/routing/#rest-parameters
 export async function getStaticPaths() {
   const posts = await getCollection('post');
   return posts.map(post => ({
