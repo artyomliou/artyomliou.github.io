@@ -6,6 +6,6 @@ export default defineConfig({
   integrations: [tailwind()],
   compressHTML: false,
   output: 'static',
-  site: 'https://artyomliou.github.io',
+  site: 'https://blog.artyomliou.ninja',
   base: '',
 });
