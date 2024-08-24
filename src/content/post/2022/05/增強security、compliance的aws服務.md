@@ -3,7 +3,6 @@ layout: ../../../../layouts/PostLayout.astro
 title: 增強Security、Compliance的AWS服務
 slug: 2022/05/增強security、compliance的aws服務
 date: 2022/5/21
-category: 寫程式
 tags: 
   - audit
   - aws

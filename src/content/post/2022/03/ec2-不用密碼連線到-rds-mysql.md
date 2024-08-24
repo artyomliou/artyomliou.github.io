@@ -8,7 +8,7 @@ tags:
   - iam
   - mysql
   - rds
-  - rds proxy
+  - rds-proxy
   - ssl
 ---
 

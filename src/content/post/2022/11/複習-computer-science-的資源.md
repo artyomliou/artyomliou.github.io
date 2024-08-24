@@ -3,7 +3,6 @@ layout: ../../../../layouts/PostLayout.astro
 title: 複習 Computer Science 的資源
 slug: 2022/11/複習-computer-science-的資源
 date: 2022/11/17
-category: 寫程式
 ---
 
   

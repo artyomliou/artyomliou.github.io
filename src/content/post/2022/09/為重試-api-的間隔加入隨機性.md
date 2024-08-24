@@ -5,10 +5,10 @@ slug: 2022/09/為重試-api-的間隔加入隨機性
 date: 2022/9/24
 category: rds
 tags: 
-  - exponential backoff
+  - exponential-backoff
   - imds
   - jitter
-  - rds proxy
+  - rds-proxy
 ---
 
   

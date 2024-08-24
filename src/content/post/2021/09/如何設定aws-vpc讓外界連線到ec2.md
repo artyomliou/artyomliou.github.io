@@ -6,9 +6,9 @@ date: 2021/9/12
 category: vpc
 tags: 
   - ec2
-  - internet gateway
+  - internet-gateway
   - nacl
-  - security group
+  - security-group
   - vpc
 ---
 

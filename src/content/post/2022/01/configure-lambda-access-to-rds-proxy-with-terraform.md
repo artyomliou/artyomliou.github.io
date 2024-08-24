@@ -6,7 +6,7 @@ date: 2022/1/22
 category: terraform
 tags: 
   - rds
-  - rds proxy
+  - rds-proxy
   - regex
   - terraform
 ---

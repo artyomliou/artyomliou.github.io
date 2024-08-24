@@ -6,7 +6,7 @@ date: 2021/8/19
 category: ec2
 tags: 
   - ec2
-  - savings plans
+  - savings-plans
 ---
 
   

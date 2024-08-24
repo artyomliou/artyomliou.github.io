@@ -3,13 +3,13 @@ layout: ../../../../layouts/PostLayout.astro
 title: OAuth2 + Custom Scheme跳轉回Windows App
 slug: 2022/01/oauth2-custom-scheme跳轉回windows-app
 date: 2022/1/13
-category: windows app
+category: windows-app
 tags: 
   - .net
-  - c#
+  - c
   - cognito
   - oauth
-  - windows app
+  - windows-app
   - wpf
 ---
 

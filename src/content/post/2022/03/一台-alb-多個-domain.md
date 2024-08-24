@@ -3,7 +3,7 @@ layout: ../../../../layouts/PostLayout.astro
 title: 一台 ALB 多個 domain
 slug: 2022/03/一台-alb-多個-domain
 date: 2022/3/19
-category: elastic load balancer
+category: elastic-load-balancer
 tags: 
   - elb
 ---

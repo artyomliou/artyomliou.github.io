@@ -9,7 +9,7 @@ tags:
   - cost
   - ebs
   - ec2
-  - route 53
+  - route-53
   - s3
 ---
 

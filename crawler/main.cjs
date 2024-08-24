@@ -3,6 +3,13 @@ const { getImagePaths, fetchImage, saveTo } = require("./file.cjs");
 const { normalizeSlug, generateAstroMarkdownHeadings } = require("./template.cjs");
 const { dryRun, astroLayoutPath, markdownLocalDir, markdownFileExt, postList } = require("./config.cjs");
 
+const slugify = require("slugify");
+function customizedSlugify(str) {
+  return slugify(str, {
+    lower: true,
+  });
+}
+
 
 /**
  * @param {string} url 
@@ -29,8 +36,8 @@ async function wordpressPageToMarkdown(url) {
   }
 
   const date = dom.findPostDate();
-  const category = dom.findPostCategory();
-  const tags = dom.findPostTags();
+  const category = customizedSlugify(dom.findPostCategory());
+  const tags = dom.findPostTags().map(tag => customizedSlugify(tag));
   const headings = {
     layout: astroLayoutPath,
     title,
@@ -39,7 +46,7 @@ async function wordpressPageToMarkdown(url) {
     date: `${date.getFullYear()}/${date.getMonth()+1}/${date.getDate()}`,
     category: category.toLowerCase(),
   };
-  const mdHeadings = generateAstroMarkdownHeadings(headings, tags.map(tag => tag.toLowerCase()));
+  const mdHeadings = generateAstroMarkdownHeadings(headings, tags);
   const mdContent = await transpileHtmlToMarkdown(dom.findPostContentElement());
 
   if (dryRun) {

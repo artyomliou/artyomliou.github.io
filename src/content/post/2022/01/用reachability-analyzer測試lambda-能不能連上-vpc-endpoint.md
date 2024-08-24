@@ -8,7 +8,7 @@ tags:
   - aws
   - lambda
   - vpc
-  - vpc endpoint
+  - vpc-endpoint
 ---
 
   

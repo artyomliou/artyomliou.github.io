@@ -7,9 +7,9 @@ category: lambda
 tags: 
   - aws
   - lambda
-  - nat gateway
+  - nat-gateway
   - vpc
-  - vpc endpoint
+  - vpc-endpoint
 ---
 
   

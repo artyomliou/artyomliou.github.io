@@ -5,7 +5,7 @@ slug: 2021/02/用nginx替nuxt、apollo-server加上微快取並提高效能
 date: 2021/2/7
 category: nginx
 tags: 
-  - apollo graphql
+  - apollo-graphql
   - cache-control
   - nginx
   - nuxt

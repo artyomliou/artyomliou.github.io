@@ -4,7 +4,6 @@ title: JS console.table() 的豎線不是一般豎線
 imgSrc: /wp-content/uploads/2023/01/Screenshot-2023-08-19-at-11-34-02-Online-Node.js-Compiler-node.png
 slug: 2023/01/markdown-table-因為豎線│無法正常顯示
 date: 2023/1/7
-category: 寫程式
 tags: 
   - markdown
   - nodejs

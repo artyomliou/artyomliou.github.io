@@ -3,7 +3,7 @@ layout: ../../../../layouts/PostLayout.astro
 title: Cognito User Pool 的 initiateAuth() 不支援自訂scope
 slug: 2022/01/cognito-user-pool的initiateauth-不支援自訂scope
 date: 2022/1/6
-category: cognito user pool
+category: cognito-user-pool
 tags: 
   - aws
   - aws-sdk
