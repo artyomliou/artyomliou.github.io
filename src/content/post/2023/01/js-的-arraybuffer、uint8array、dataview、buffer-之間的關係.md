@@ -3,6 +3,16 @@ layout: ../../../../layouts/PostLayout.astro
 title: JS 的 ArrayBuffer、Uint8Array、DataView、Buffer 之間的關係
 imgSrc: /wp-content/uploads/2023/01/20230103-arraybuffer.jpg
 slug: 2023/01/js-的-arraybuffer、uint8array、dataview、buffer-之間的關係
+date: 2023/1/3
+category: node.js
+tags: 
+  - arraybuffer
+  - buffer
+  - dataview
+  - javascript
+  - nodejs
+  - typedarray
+  - uint8array
 ---
 
 ![](/wp-content/uploads/2023/01/20230103-arraybuffer-1024x336.jpg)

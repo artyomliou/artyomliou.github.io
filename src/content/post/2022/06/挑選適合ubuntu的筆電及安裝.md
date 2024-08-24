@@ -1,8 +1,16 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 挑選適合 Ubuntu 的筆電及安裝
-imgSrc: 
 slug: 2022/06/挑選適合ubuntu的筆電及安裝
+date: 2022/6/24
+category: 3c
+tags: 
+  - dell
+  - hibernation
+  - inspiron
+  - linux
+  - suspend
+  - swap
 ---
 
   

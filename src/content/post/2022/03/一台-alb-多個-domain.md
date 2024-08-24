@@ -1,8 +1,11 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 一台 ALB 多個 domain
-imgSrc: 
 slug: 2022/03/一台-alb-多個-domain
+date: 2022/3/19
+category: elastic load balancer
+tags: 
+  - elb
 ---
 
   
@@ -19,7 +22,7 @@ slug: 2022/03/一台-alb-多個-domain
 
 
 
-[](https://aws.amazon.com/tw/elasticloadbalancing/pricing/)
+![](/wp-content/uploads/2022/03/Screenshot-2022-03-19-at-16-17-12-網路流量分配-–-Elastic-Load-Balancing-定價-–-Amazon-Web-Services.png)
 
 
 

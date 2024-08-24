@@ -1,8 +1,15 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: Nodejs Gzip壓縮+逐行讀取Gzip壓縮的文件
-imgSrc: 
 slug: 2021/08/nodejs做gzip壓縮-逐行讀取gzip壓縮的文件
+date: 2021/8/31
+category: node.js
+tags: 
+  - firehose
+  - gunzip
+  - gz
+  - gzip
+  - nodejs
 ---
 
   

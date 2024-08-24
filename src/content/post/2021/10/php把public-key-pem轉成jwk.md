@@ -1,8 +1,14 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: PHP 把 Public Key (.pem) 轉成JWK
-imgSrc: 
 slug: 2021/10/php把public-key-pem轉成jwk
+date: 2021/10/20
+category: php
+tags: 
+  - jwk
+  - jwt
+  - openssl
+  - php
 ---
 
   

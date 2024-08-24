@@ -1,8 +1,14 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 用 Reachability Analyzer 測試 Lambda 能不能連上 VPC Endpoint
-imgSrc: 
 slug: 2022/01/用reachability-analyzer測試lambda-能不能連上-vpc-endpoint
+date: 2022/1/6
+category: vpc
+tags: 
+  - aws
+  - lambda
+  - vpc
+  - vpc endpoint
 ---
 
   
@@ -36,7 +42,7 @@ Lambda 一旦放到 VPC 裏面，就無法存取 internet 了。<br>
 
 
 
-[](https://blog-img.artyomliou.ninja/wp-content/uploads/2022/01/Screenshot-2022-01-03-at-15-10-53-Network-interfaces-EC2-Management-Console.png)
+![](/wp-content/uploads/2022/01/Screenshot-2022-01-03-at-15-10-53-Network-interfaces-EC2-Management-Console-1024x372.png)
 
 
 
@@ -46,7 +52,7 @@ Lambda 一旦放到 VPC 裏面，就無法存取 internet 了。<br>
 
 
 
-[](https://blog-img.artyomliou.ninja/wp-content/uploads/2022/01/Screenshot-2022-01-06-at-11-20-24-VPC-Management-Console.png)
+![](/wp-content/uploads/2022/01/Screenshot-2022-01-06-at-11-20-24-VPC-Management-Console-1024x680.png)
 
 
 
@@ -55,4 +61,4 @@ Lambda 一旦放到 VPC 裏面，就無法存取 internet 了。<br>
 
 
 
-[](https://blog-img.artyomliou.ninja/wp-content/uploads/2022/01/Screenshot-2022-01-03-at-15-13-10-VPC-Management-Console.png)
+![](/wp-content/uploads/2022/01/Screenshot-2022-01-03-at-15-13-10-VPC-Management-Console-1024x544.png)

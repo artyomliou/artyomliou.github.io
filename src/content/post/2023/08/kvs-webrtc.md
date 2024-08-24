@@ -3,6 +3,12 @@ layout: ../../../../layouts/PostLayout.astro
 title: KVS WebRTC
 imgSrc: /wp-content/uploads/2023/08/螢幕擷取畫面-2023-08-19-160246.png
 slug: 2023/08/kvs-webrtc
+date: 2023/8/19
+category: kvs
+tags: 
+  - aws
+  - kvs
+  - webrtc
 ---
 
   

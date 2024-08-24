@@ -1,8 +1,15 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: EC2 單機自建 Grafana Loki
-imgSrc: 
 slug: 2022/05/ec2-單機自建-grafana-loki
+date: 2022/5/3
+category: grafana
+tags: 
+  - ec2
+  - grafana
+  - loki
+  - prometheus
+  - promtail
 ---
 
   

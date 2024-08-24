@@ -1,8 +1,13 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: SSH到放在Private Subnet的EC2 Instance
-imgSrc: 
 slug: 2022/05/ssh到放在private-subnet的ec2-instance
+date: 2022/5/27
+category: system manager
+tags: 
+  - ec2
+  - session-manager
+  - system-manager
 ---
 
   

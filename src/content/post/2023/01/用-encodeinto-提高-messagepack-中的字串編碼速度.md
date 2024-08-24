@@ -3,6 +3,13 @@ layout: ../../../../layouts/PostLayout.astro
 title: 用 encodeInto() 提高 MessagePack 中的字串編碼速度
 imgSrc: /wp-content/uploads/2023/01/msgpack-text-encoding-optimitzation.drawio.png
 slug: 2023/01/用-encodeinto-提高-messagepack-中的字串編碼速度
+date: 2023/1/16
+category: messagepack
+tags: 
+  - encoding
+  - messagepack
+  - nodejs
+  - utf8
 ---
 
   

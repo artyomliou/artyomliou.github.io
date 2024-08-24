@@ -1,8 +1,15 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 成功連到 EC2 上的服務
-imgSrc: 
 slug: 2021/09/如何設定aws-vpc讓外界連線到ec2
+date: 2021/9/12
+category: vpc
+tags: 
+  - ec2
+  - internet gateway
+  - nacl
+  - security group
+  - vpc
 ---
 
   

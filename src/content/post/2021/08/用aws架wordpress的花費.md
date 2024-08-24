@@ -1,8 +1,16 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 用 AWS EC2 架 WordPress 的年花費
-imgSrc: 
 slug: 2021/08/用aws架wordpress的花費
+date: 2021/8/24
+category: aws
+tags: 
+  - cloudfront
+  - cost
+  - ebs
+  - ec2
+  - route 53
+  - s3
 ---
 
   

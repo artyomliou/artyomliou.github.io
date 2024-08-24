@@ -1,8 +1,15 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: VPC中的Lambda存取網路上的服務
-imgSrc: 
 slug: 2021/11/vpc中的lambda存取網路上的服務
+date: 2021/11/23
+category: lambda
+tags: 
+  - aws
+  - lambda
+  - nat gateway
+  - vpc
+  - vpc endpoint
 ---
 
   

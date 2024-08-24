@@ -1,8 +1,12 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 事件API專武：Beacon API
-imgSrc: 
 slug: 2020/06/beacon-api：在網頁關掉的那一刻成功送出api
+date: 2020/6/14
+category: javascript
+tags: 
+  - ajax
+  - javascript
 ---
 
   

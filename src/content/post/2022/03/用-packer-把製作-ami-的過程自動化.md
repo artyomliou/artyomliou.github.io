@@ -1,8 +1,14 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 用 Packer 把製作 AMI 的過程自動化
-imgSrc: 
 slug: 2022/03/用-packer-把製作-ami-的過程自動化
+date: 2022/3/27
+category: terraform
+tags: 
+  - ami
+  - ec2
+  - hashicorp
+  - packer
 ---
 
   

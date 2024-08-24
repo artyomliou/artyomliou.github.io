@@ -1,8 +1,12 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: Savings Plans能節省多少EC2的花費？
-imgSrc: 
 slug: 2021/08/savings-plans能解省多少ec2的花費？
+date: 2021/8/19
+category: ec2
+tags: 
+  - ec2
+  - savings plans
 ---
 
   

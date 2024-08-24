@@ -3,6 +3,12 @@ layout: ../../../../layouts/PostLayout.astro
 title: JS 的 Math.floor()、Math.trunc()、~~num
 imgSrc: /wp-content/uploads/2023/01/螢幕擷取畫面-2023-08-19-114123.png
 slug: 2023/01/js-取整數常用的-math-floor-與-math-trunc-以及-num-的差異
+date: 2023/1/5
+category: javascript
+tags: 
+  - bitwise
+  - integer
+  - javascript
 ---
 
   

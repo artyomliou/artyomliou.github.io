@@ -1,8 +1,14 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 隨著資料量不斷調整的CSV匯入程式
-imgSrc: 
 slug: 2022/07/隨著資料量不斷調整的csv匯入程式
+date: 2022/7/30
+category: laravel
+tags: 
+  - csv
+  - laravel
+  - queue
+  - sqs
 ---
 
   

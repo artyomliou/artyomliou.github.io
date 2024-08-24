@@ -3,6 +3,14 @@ layout: ../../../../layouts/PostLayout.astro
 title: 為頻繁執行的GraphQL API加上Update Lock
 imgSrc: /wp-content/uploads/2021/08/Untitled-Diagram-150x150.jpg
 slug: 2021/08/graphql-updating-lock
+date: 2021/8/26
+category: javascript
+tags: 
+  - cache
+  - graphql
+  - inmemory
+  - lock
+  - nodejs
 ---
 
   

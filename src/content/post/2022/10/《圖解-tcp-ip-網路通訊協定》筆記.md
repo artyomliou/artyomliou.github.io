@@ -1,8 +1,9 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 《圖解 TCP/IP 網路通訊協定》筆記
-imgSrc: 
 slug: 2022/10/《圖解-tcp-ip-網路通訊協定》筆記
+date: 2022/10/26
+category: network
 ---
 
   

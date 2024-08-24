@@ -3,6 +3,11 @@ layout: ../../../../layouts/PostLayout.astro
 title: Firefox 在網站上登入多個帳號
 imgSrc: /wp-content/uploads/2023/08/螢幕擷取畫面-2023-08-31-223837.png
 slug: 2023/08/firefox-在網站上登入多個帳號
+date: 2023/8/31
+category: firefox
+tags: 
+  - firefox
+  - multi-account
 ---
 
   

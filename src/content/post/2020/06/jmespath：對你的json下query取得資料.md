@@ -1,8 +1,12 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 有如JSON Selector的JMESPath
-imgSrc: 
 slug: 2020/06/jmespath：對你的json下query取得資料
+date: 2020/6/14
+category: json
+tags: 
+  - jmespath
+  - json
 ---
 
   

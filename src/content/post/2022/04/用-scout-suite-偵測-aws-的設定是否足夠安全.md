@@ -1,8 +1,11 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 用 Scout Suite 偵測 AWS 的設定是否足夠安全
-imgSrc: 
 slug: 2022/04/用-scout-suite-偵測-aws-的設定是否足夠安全
+date: 2022/4/13
+category: security
+tags: 
+  - scoutsuite
 ---
 
   

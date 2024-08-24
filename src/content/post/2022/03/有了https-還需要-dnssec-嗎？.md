@@ -1,8 +1,15 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 有了HTTPS 還需要 DNSSEC 嗎？
-imgSrc: 
 slug: 2022/03/有了https-還需要-dnssec-嗎？
+date: 2022/3/9
+category: http
+tags: 
+  - ca
+  - dns
+  - dnssec
+  - https
+  - tls
 ---
 
   

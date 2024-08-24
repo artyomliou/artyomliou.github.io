@@ -1,8 +1,12 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: Promtail 會追蹤 logrotate 造成的變化
-imgSrc: 
 slug: 2022/04/promtail-會追蹤-logrotate-造成的變化
+date: 2022/4/28
+category: promtail
+tags: 
+  - logrotate
+  - promtail
 ---
 
   

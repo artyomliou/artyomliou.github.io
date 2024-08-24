@@ -3,6 +3,13 @@ layout: ../../../../layouts/PostLayout.astro
 title: 使用SES寄信也要注意Reputation
 imgSrc: /wp-content/uploads/2022/03/SES新加上的保護措施1.drawio2-150x150.png
 slug: 2022/03/使用ses寄信也要注意reputation
+date: 2022/3/5
+category: ses
+tags: 
+  - bounce
+  - complaint
+  - reputation
+  - ses
 ---
 
   

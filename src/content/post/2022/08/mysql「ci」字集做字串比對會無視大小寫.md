@@ -1,8 +1,12 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: MySQL「ci」字集做字串比對會無視大小寫
-imgSrc: 
 slug: 2022/08/mysql「ci」字集做字串比對會無視大小寫
+date: 2022/8/14
+category: mysql
+tags: 
+  - charset
+  - mysql
 ---
 
   

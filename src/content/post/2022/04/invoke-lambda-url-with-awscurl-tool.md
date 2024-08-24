@@ -1,8 +1,13 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: Invoke Lambda URL with Awscurl
-imgSrc: 
 slug: 2022/04/invoke-lambda-url-with-awscurl-tool
+date: 2022/4/9
+category: lambda
+tags: 
+  - cross-account
+  - function-url
+  - lambda
 ---
 
   
@@ -28,7 +33,7 @@ Belows is a paragraph about cross-account invoking, and its illustration
 
 
 
-[](https://blog-img.artyomliou.ninja/wp-content/uploads/2022/04/lambda-function-url-cross-account-illustration.png)
+![](/wp-content/uploads/2022/04/lambda-function-url-cross-account-illustration-1024x628.png)
 
 
 

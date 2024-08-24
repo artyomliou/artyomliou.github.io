@@ -3,6 +3,14 @@ layout: ../../../../layouts/PostLayout.astro
 title: 計算 CloudFront Origin Shield 的費用
 imgSrc: /wp-content/uploads/2022/12/cloudfront-origin-shield-requests.jpg
 slug: 2022/12/計算-cloudfront-origin-shield-的費用
+date: 2022/12/11
+category: cloudfront
+tags: 
+  - aws
+  - cloudfront
+  - hls
+  - m3u8
+  - origin-shield
 ---
 
   

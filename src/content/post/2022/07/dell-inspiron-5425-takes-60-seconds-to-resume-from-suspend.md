@@ -3,6 +3,13 @@ layout: ../../../../layouts/PostLayout.astro
 title: Dell Inspiron 5425 Takes 60 Seconds To Resume From Suspend
 imgSrc: /wp-content/uploads/2022/07/photo_2022-07-01_17-14-47.jpg
 slug: 2022/07/dell-inspiron-5425-takes-60-seconds-to-resume-from-suspend
+date: 2022/7/1
+category: 3c
+tags: 
+  - dell
+  - inspiron
+  - linux
+  - suspend
 ---
 
   

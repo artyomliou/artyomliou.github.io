@@ -1,8 +1,12 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 逕行升級 Terraform 遇到 “data could not be decoded from the state”
-imgSrc: 
 slug: 2022/05/逕行升級-terraform-遇到-data-could-not-be-decoded-from-the-state
+date: 2022/5/5
+category: terraform
+tags: 
+  - cloudfront
+  - terraform
 ---
 
   

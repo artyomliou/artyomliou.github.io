@@ -1,8 +1,14 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: 用Nginx做微快取
-imgSrc: 
 slug: 2021/02/用nginx替nuxt、apollo-server加上微快取並提高效能
+date: 2021/2/7
+category: nginx
+tags: 
+  - apollo graphql
+  - cache-control
+  - nginx
+  - nuxt
 ---
 
   

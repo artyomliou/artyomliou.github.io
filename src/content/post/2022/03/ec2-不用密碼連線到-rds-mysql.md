@@ -1,8 +1,15 @@
 ---
 layout: ../../../../layouts/PostLayout.astro
 title: EC2 不用密碼連線到 RDS (MySQL)
-imgSrc: 
 slug: 2022/03/ec2-不用密碼連線到-rds-mysql
+date: 2022/3/19
+category: rds
+tags: 
+  - iam
+  - mysql
+  - rds
+  - rds proxy
+  - ssl
 ---
 
   
@@ -69,4 +76,4 @@ slug: 2022/03/ec2-不用密碼連線到-rds-mysql
 
 
 
-[](https://blog-img.artyomliou.ninja/wp-content/uploads/2022/03/IAM_AUTH_RDS.drawio.png)
+![](/wp-content/uploads/2022/03/IAM_AUTH_RDS.drawio-1024x717.png)
